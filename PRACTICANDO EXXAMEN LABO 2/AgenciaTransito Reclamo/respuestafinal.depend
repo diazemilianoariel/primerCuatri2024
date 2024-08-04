@@ -1,0 +1,249 @@
+# depslib dependency file v1.0
+1684280746 source:c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\agente.cpp
+	"Agente.h"
+	<cstring>
+
+1684359900 c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\agente.h
+	<string>
+
+1684280862 source:c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\agentearchivo.cpp
+	"AgenteArchivo.h"
+	<cstdio>
+
+1684280914 c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\agentearchivo.h
+	"Agente.h"
+	<string>
+
+1683846750 source:c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\fecha.cpp
+	<string>
+	"Fecha.h"
+
+1684279156 c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\fecha.h
+	<string>
+
+1684279694 source:c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\multa.cpp
+	"Multa.h"
+	<string>
+	<cstring>
+
+1684280324 c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\multa.h
+	<string>
+	"Fecha.h"
+
+1684279680 source:c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\multaarchivo.cpp
+	"MultaArchivo.h"
+	<cstdio>
+
+1684278570 c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\multaarchivo.h
+	"Multa.h"
+	<string>
+
+1684279772 source:c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\multamanager.cpp
+	<iostream>
+	"MultaManager.h"
+
+1684278992 c:\users\user\desktop\todo programacion 2\final ultimo practica\final laboratorio\gise\respuestafinal\multamanager.h
+	"Multa.h"
+	"MultaArchivo.h"
+
+1684280746 source:c:\users\user\desktop\final laboratorio\gise\respuestafinal\agente.cpp
+	"Agente.h"
+	<cstring>
+
+1684359900 c:\users\user\desktop\final laboratorio\gise\respuestafinal\agente.h
+	<string>
+
+1684280862 source:c:\users\user\desktop\final laboratorio\gise\respuestafinal\agentearchivo.cpp
+	"AgenteArchivo.h"
+	<cstdio>
+
+1684280914 c:\users\user\desktop\final laboratorio\gise\respuestafinal\agentearchivo.h
+	"Agente.h"
+	<string>
+
+1683846750 source:c:\users\user\desktop\final laboratorio\gise\respuestafinal\fecha.cpp
+	<string>
+	"Fecha.h"
+
+1684279156 c:\users\user\desktop\final laboratorio\gise\respuestafinal\fecha.h
+	<string>
+
+1684279694 source:c:\users\user\desktop\final laboratorio\gise\respuestafinal\multa.cpp
+	"Multa.h"
+	<string>
+	<cstring>
+
+1684280324 c:\users\user\desktop\final laboratorio\gise\respuestafinal\multa.h
+	<string>
+	"Fecha.h"
+
+1684279680 source:c:\users\user\desktop\final laboratorio\gise\respuestafinal\multaarchivo.cpp
+	"MultaArchivo.h"
+	<cstdio>
+
+1684278570 c:\users\user\desktop\final laboratorio\gise\respuestafinal\multaarchivo.h
+	"Multa.h"
+	<string>
+
+1684279772 source:c:\users\user\desktop\final laboratorio\gise\respuestafinal\multamanager.cpp
+	<iostream>
+	"MultaManager.h"
+
+1684278992 c:\users\user\desktop\final laboratorio\gise\respuestafinal\multamanager.h
+	"Multa.h"
+	"MultaArchivo.h"
+
+1684280746 source:c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\agente.cpp
+	"Agente.h"
+	<cstring>
+
+1684359900 c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\agente.h
+	<string>
+
+1684280862 source:c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\agentearchivo.cpp
+	"AgenteArchivo.h"
+	<cstdio>
+
+1684280914 c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\agentearchivo.h
+	"Agente.h"
+	<string>
+
+1683846750 source:c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\fecha.cpp
+	<string>
+	"Fecha.h"
+
+1684279156 c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\fecha.h
+	<string>
+
+1684279694 source:c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\multa.cpp
+	"Multa.h"
+	<string>
+	<cstring>
+
+1684280324 c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\multa.h
+	<string>
+	"Fecha.h"
+
+1684279680 source:c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\multaarchivo.cpp
+	"MultaArchivo.h"
+	<cstdio>
+
+1684278570 c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\multaarchivo.h
+	"Multa.h"
+	<string>
+
+1684279772 source:c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\multamanager.cpp
+	<iostream>
+	"MultaManager.h"
+
+1684278992 c:\users\user\desktop\final laboratorio\agencia transito 20-07-23\agenciatransito gise\multamanager.h
+	"Multa.h"
+	"MultaArchivo.h"
+
+1684280746 source:d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\agente.cpp
+	"Agente.h"
+	<cstring>
+
+1684359900 d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\agente.h
+	<string>
+
+1684280862 source:d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\agentearchivo.cpp
+	"AgenteArchivo.h"
+	<cstdio>
+
+1684280914 d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\agentearchivo.h
+	"Agente.h"
+	<string>
+
+1683846750 source:d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\fecha.cpp
+	<string>
+	"Fecha.h"
+
+1684279156 d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\fecha.h
+	<string>
+
+1684279694 source:d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\multa.cpp
+	"Multa.h"
+	<string>
+	<cstring>
+
+1684280324 d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\multa.h
+	<string>
+	"Fecha.h"
+
+1684279680 source:d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\multaarchivo.cpp
+	"MultaArchivo.h"
+	<cstdio>
+
+1684278570 d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\multaarchivo.h
+	"Multa.h"
+	<string>
+
+1684279772 source:d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\multamanager.cpp
+	<iostream>
+	"MultaManager.h"
+
+1684278992 d:\tecnico superior en prgramacion_2023\laboratorio_2_2023\final laboratorio\agencia transito 20-07-23 gus\agenciatransito gise\multamanager.h
+	"Multa.h"
+	"MultaArchivo.h"
+
+1684280746 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\agente.cpp
+	"Agente.h"
+	<cstring>
+
+1684359900 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\agente.h
+	<string>
+
+1684280862 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\agentearchivo.cpp
+	"AgenteArchivo.h"
+	<cstdio>
+
+1684280914 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\agentearchivo.h
+	"Agente.h"
+	<string>
+
+1683846750 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\fecha.cpp
+	<string>
+	"Fecha.h"
+
+1721852582 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\fecha.h
+	<string>
+
+1684279694 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\multa.cpp
+	"Multa.h"
+	<string>
+	<cstring>
+
+1684280324 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\multa.h
+	<string>
+	"Fecha.h"
+
+1721858781 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\multaarchivo.cpp
+	"MultaArchivo.h"
+	<cstdio>
+
+1684278570 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\multaarchivo.h
+	"Multa.h"
+	<string>
+
+1684279772 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\multamanager.cpp
+	<iostream>
+	"MultaManager.h"
+
+1684278992 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\multamanager.h
+	"Multa.h"
+	"MultaArchivo.h"
+
+1721863153 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\practicando exxamen labo 2\agenciatransito reclamo\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	"Agente.h"
+	"AgenteArchivo.h"
+	"Fecha.h"
+	"Multa.h"
+	"MultaArchivo.h"
+	"MultaManager.h"
+	<string>
+	<ctime>
+
