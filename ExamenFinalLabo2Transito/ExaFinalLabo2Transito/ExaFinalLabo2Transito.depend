@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1721580238 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\main.cpp
+	<iostream>
+	"Examen.h"
+
+1721774805 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\examen.cpp
+	"Examen.h"
+	"Multa.h"
+	"Agente.h"
+	"ArchivoAgente.h"
+	"ArchivoMulta.h"
+	<iomanip>
+	<iostream>
+
+1721570971 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\examen.h
+
+1721568340 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\agente.cpp
+	"Agente.h"
+	<cstring>
+
+1721568527 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\agente.h
+	<string>
+
+1721569216 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\fecha.cpp
+	<string>
+	"Fecha.h"
+
+1721569171 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\fecha.h
+	<string>
+
+1721568650 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\multa.cpp
+	"Multa.h"
+	<string>
+	<cstring>
+
+1721568650 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\multa.h
+	<string>
+	"Fecha.h"
+
+1721773744 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\archivoagente.cpp
+	"Agente.h"
+	"Multa.h"
+	"ArchivoAgente.h"
+	"ArchivoMulta.h"
+	<cstdio>
+
+1721570183 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\archivoagente.h
+	"Agente.h"
+	<string>
+
+1721569336 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\archivomulta.h
+	"Multa.h"
+	<string>
+
+1721575353 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\archivomulta.cpp
+	"Agente.h"
+	"Multa.h"
+	"ArchivoAgente.h"
+	"ArchivoMulta.h"
+	<cstdio>
+
+1721774851 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\estadisticaanual.cpp
+	"EstadisticaAnual.h"
+
+1721691002 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\estadisticaanual.h
+	"Fecha.h"
+
+1721774867 source:c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\archivoestadisticaanual.cpp
+	"ArchivoEstadisticaAnual.h"
+
+1721690948 c:\users\programador\documents\tecnico superior en prgramacion_2024\labo 2 deuda\examenfinallabo2transito\exafinallabo2transito\archivoestadisticaanual.h
+	<iostream>
+
