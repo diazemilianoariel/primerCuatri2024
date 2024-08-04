@@ -1,0 +1,25 @@
+- group by , permite que se agrupen la informacion resumida por un campo en comun
+-- having, permite filtrar los resultados de un grupo
+--cout  cuenta el numero de registros
+--sum suma los valores de una columna
+--min devuelve el valor minimo de una columna
+--avg devuelve el promedio de los valores de una columna
+
+--que hace el join? 
+--el join permite unir dos tablas por un campo en comun, en este caso se unen las tablas de paises y ciudades por el campo IDPais
+
+--que hace el left outer join?
+--el left outer join permite que se muestren todos los registros de la tabla de la izquierda, en este caso la tabla de paises, y los registros de la tabla de la derecha, en este caso la tabla de ciudades, que coincidan con el campo en comun, en este caso IDPais
+
+
+PRACTICA :
+-- los nombre de ciudades que hayan registrado  mas de 25°C en promedio en el 2023
+SELECT C.Nombre, AVG(M.Temperatura) as Promedio from Ciudades C  -- selecciono la tabla ciudades
+inner join Mediciones M on M.IDCiudad = C.IDCiudad -- relaciono con mediciones
+WHERE year(FechaHora) = 2023 -- filtro por año
+GROUP by C.Nombre -- agrupo por nombre de ciudad
+HAVING AVG(M.Temperatura) > 25 -- filtro por promedio mayor a 25
+-- resumen de la consulta:
+-- selecciono las ciudades y el promedio de temperatura de las mediciones de cada ciudad en el 2023
+-- agrupo por ciudad y filtro por promedio mayor a 25
+-- muestro el nombre de la ciudad y el promedio de temperatura

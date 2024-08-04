@@ -1,0 +1,158 @@
+Link  DER :  https://excalidraw.com/#json=8fhlu4wLGoYYu9QWxUfkN,GgbPYANS1MKRikJNni2w4g
+
+Tabla Usuario:
+
+UsuarioID (PK)
+Nombre
+Email
+...
+Tabla Instructor:
+
+InstructorID (PK)
+Nombre
+Email
+...
+Tabla Curso:
+
+CursoID (PK)
+Nombre
+InstructorID (FK)
+CategoriaID (FK)
+NivelID (FK, opcional)
+...
+Tabla Categoria:
+
+CategoriaID (PK)
+Nombre
+...
+Tabla Inscripcion:
+
+InscripcionID (PK)
+UsuarioID (FK)
+CursoID (FK)
+Fecha
+...
+Tabla Pago:
+
+PagoID (PK)
+InscripcionID (FK)
+Monto
+Fecha
+...
+Tabla Certificacion:
+
+CertificacionID (PK)
+UsuarioID (FK)
+CursoID (FK)
+Fecha
+...
+Tabla Resena:
+
+ResenaID (PK)
+UsuarioID (FK)
+CursoID (FK)
+Comentario
+Puntuacion
+Fecha
+...
+Tabla Clase:
+
+ClaseID (PK)
+CursoID (FK)
+Nombre
+...
+Tabla Contenido:
+
+ContenidoID (PK)
+ClaseID (FK)
+TipoID (FK)
+...
+Tabla TipoContenido:
+
+TipoID (PK)
+Nombre
+...
+Tabla Nivel:
+
+NivelID (PK)
+Nombre
+...
+Tabla Idioma:
+
+IdiomaID (PK)
+Nombre
+AudioDisponible
+SubtituloDisponible
+
+
+
+
+
+
+
+¡Claro que sí! Ahora, con esta segunda etapa, podemos identificar las tablas adicionales necesarias y continuar con el diseño de la base de datos. A continuación, te presento una propuesta de tablas:
+
+Tabla: Usuarios
+Campos: UsuarioID (PK), Nombre, Email, Contraseña, NacionalidadID (FK), Tipo (Instructor/Estudiante), etc.
+
+Tabla: Información Personal
+Campos: InformacionPersonalID (PK), UsuarioID (FK), FechaNacimiento, Dirección, Teléfono, etc.
+
+Tabla: Cursos
+Campos: CursoID (PK), Nombre, Descripción, etc.
+
+Tabla: UsuariosCursos
+Campos: UsuarioCursoID (PK), UsuarioID (FK), CursoID (FK), Rol (Instructor/Estudiante), etc.
+
+Tabla: Inscripciones
+Campos: InscripcionID (PK), UsuarioCursoID (FK), FechaInscripción, Estado, etc.
+
+Tabla: Pagos
+Campos: PagoID (PK), InscripcionID (FK), Monto, FechaPago, MétodoPago, etc.
+
+Tabla: Reseñas
+Campos: ReseñaID (PK), InscripcionID (FK), Comentario, Calificación, etc.
+
+Tabla: Certificaciones
+Campos: CertificacionID (PK), InscripcionID (FK), FechaCertificación, etc.
+
+
+Con respecto a la normalización, estas tablas siguen cumpliendo con las formas normales mencionadas previamente (1FN, 2FN y 3FN). Sin embargo, siempre es recomendable revisar las relaciones y dependencias específicas entre las tablas para garantizar la integridad y eficiencia del diseño de la base de datos.
+
+Esta propuesta de diseño debería ser un buen punto de partida para desarrollar la base de datos necesaria para la segunda etapa del sistema. Si tienes alguna pregunta adicional o necesitas más ayuda, no dudes en preguntar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Para revisar las relaciones y dependencias entre las tablas en el diseño de tu base de datos, puedes seguir estos pasos:
+
+Identificar las claves primarias (PK) y las claves foráneas (FK): Verifica que cada tabla tenga una clave primaria única que identifique de manera única cada registro en esa tabla. Las claves foráneas deben estar presentes en las tablas que hacen referencia a otras tablas.
+
+Analizar las relaciones uno a uno, uno a muchos y muchos a muchos: Determina el tipo de relación que existe entre cada par de tablas. Por ejemplo, ¿un usuario puede tener una sola información personal o múltiples información personal? ¿Un curso puede tener múltiples inscripciones, pero una inscripción solo puede pertenecer a un curso? Esto te ayudará a entender la naturaleza de las relaciones y cómo están conectadas las tablas.
+
+Revisar las restricciones de integridad referencial: Asegúrate de que las claves foráneas estén correctamente definidas para mantener la integridad referencial de la base de datos. Esto implica que no puedas eliminar un registro padre si hay registros hijos que dependen de él.
+
+Evaluar la normalización de las tablas: Verifica si las tablas están en las formas normales adecuadas (1NF, 2NF, 3NF, etc.) y si se pueden reducir las redundancias de datos.
+
+Usar herramientas de modelado de bases de datos: Puedes utilizar herramientas de modelado de bases de datos como MySQL Workbench, Microsoft Visio, o herramientas en línea como Lucidchart para visualizar y analizar las relaciones entre las tablas de manera gráfica.
+
+Revisar casos de uso y requisitos: Verifica si las relaciones y dependencias entre las tablas cumplen con los requisitos del sistema y los casos de uso previamente definidos.
+
+Al realizar estos pasos, podrás tener una mejor comprensión de cómo están interconectadas tus tablas y si hay áreas que necesitan ajustes o mejoras en el diseño de tu base de datos.
+
+
+
+
+

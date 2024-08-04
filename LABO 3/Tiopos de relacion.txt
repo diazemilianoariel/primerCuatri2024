@@ -1,0 +1,16 @@
+  Relacion uno a uno 
+( ES POCO RECURRENTE ESTA  RELACION )
+Solo un registro de la tabla A puede relacionarse con un registro de la tabla B y solo un rregistro de la tabla B puede relacionarse con un registro de la tabla A
+
+Relacion de un a muchos
+(ES MAS ABITUAL)
+Un registro de la tabla A puede Relacionarse con varios registros de la tabla B, pero solo un registro de la  tabla B puede relacionarse con un registro de la tabla A
+
+Relacion de muchos a muchos.
+(ES MAS ABITUAL)
+Muchos registros de la tabla A pueden relacionarse con varios registros de la tabla B y muchos registros de la tabla B puede relacioinarse con muchos registro de la tabla A.
+
+
+
+
+

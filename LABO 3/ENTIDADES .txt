@@ -1,0 +1,109 @@
+ENTIDADES: 
+
+USUARIOS(
+ IDUsuario
+ Nombre
+ Apellido
+)   
+
+
+
+IDIOMAS(
+ IDIdioma
+ Nombre	
+)
+
+NIVEL (
+  IDNivel
+  Nombre
+)
+
+CATEGORIA (
+ IDCategoria
+ Nombre
+)
+
+	
+     
+CURSOS(
+  IDCurso
+  IDInstructor
+  Nombre
+  IDNivel
+  IDIdioma
+)
+
+
+ 
+INSTRUCTORES(
+ IDInstructor
+ Nombre
+ apellido
+ fechaNacimiento
+)
+
+
+
+PAGOS(
+IDPago
+FormaPago
+DescripcionPago
+Importe
+FechaPago
+)
+
+
+INSCRIPCIONES (
+ IDInscripcion
+ IDUsuario
+ IDCurso
+)
+
+TIPO_CONTENIDO  (
+  IDTipoContenido
+  Nombre
+)
+
+CONTENIDO(
+ IDContenido
+ Nombre
+)
+
+CLASES(
+  IdClase
+  IDTipoContenido
+   NumeroClase
+  Duracion
+ 
+)
+
+
+
+CATEGORIA_X_CURSOS(
+  IDCurso
+  IDCategoria
+  
+)
+
+CONTENIDO_X_CLASE (
+ IDContenido
+ IDClase
+) 
+ 
+RESEÑAS  (
+ IDReseña
+ IdUsuario
+ IdCurso
+)	   
+
+CERTIFICACIONES(
+ IDCertificacion
+ IDUsuario, 
+ IDCurso, 
+ FechaCertificacion
+)    
+
+
+(HAY QUE CREAR LA TABLA QUE NO DEPENDE DE NADIE)
+
+
